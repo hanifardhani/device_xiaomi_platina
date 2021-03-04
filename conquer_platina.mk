@@ -21,6 +21,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 
 # Inherit some common ConquerOS stuff
 $(call inherit-product, vendor/conquer/config/common.mk)
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Inherit from platina device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
