@@ -56,9 +56,6 @@ BOARD_HAVE_QCOM_FM := false
 DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay
 
-PRODUCT_PACKAGES += \
-    NoCutoutOverlay
-
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom \
