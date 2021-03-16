@@ -56,6 +56,9 @@ PRODUCT_COPY_FILES += \
 # FM
 BOARD_HAVE_QCOM_FM := false
 
+# MIUI Camera
+$(call inherit-product-if-exists, vendor/miuicamera/common/common-vendor.mk)
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay
